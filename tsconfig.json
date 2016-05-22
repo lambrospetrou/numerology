@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "outDir": "./build/",
+        "sourceMap": true,
+        "noImplicitAny": false,
+        "module": "commonjs",
+        "target": "es5",
+        "jsx": "react"
+    },
+    "files": [
+        "./typings/index.d.ts",
+        "./src/scripts/components/BaseComponent.tsx",
+        "./src/scripts/components/Calculator.tsx",
+        "./src/scripts/index.tsx"
+    ]
+}

@@ -1,0 +1,45 @@
+{
+  "name": "Numerology",
+  "version": "0.1.0",
+  "description": "NUmerology calculator.",
+  "author": "Lambros Petrou",
+  "scripts": {
+    "postinstall": "node ./node_modules/.bin/typings install",
+    "build": "node ./node_modules/.bin/gulp",
+    "webpack": "node ./node_modules/.bin/webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lambrospetrou/numerology"
+  },
+  "keywords": [
+    "numerology"
+  ],
+  "devDependencies": {
+    "del": "^2.2.0",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-clean": "^0.3.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-cssnano": "^2.1.0",
+    "gulp-load-plugins": "^1.2.0",
+    "gulp-sass": "^2.1.1",
+    "gulp-size": "^2.0.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.5.1",
+    "gulp-util": "^3.0.7",
+    "gulp-webpack": "^1.5.0",
+    "gulpclass": "^0.1.1",
+    "source-map-loader": "^0.1.5",
+    "ts-loader": "^0.8.2",
+    "typescript": "^1.8.10",
+    "typings": "^1.0.4",
+    "webpack": "^1.12.14"
+  },
+  "analyze": true,
+  "license": "Apache-2.0",
+  "dependencies": {
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0"
+  }
+}
