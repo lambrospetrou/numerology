@@ -24,6 +24,7 @@ body {
   text-align: center;
   background-color: #fafafa;
   font-family: 'Source Sans Pro', 'Open Sans', 'Ubuntu', 'Helvetica Neue', 'Segoe UI', Arial;
+  padding: 20px;
 
   * {
     -webkit-margin-before: 0;
@@ -46,7 +47,7 @@ h1 {
   }
 
   input {
-    width: 90%;
+    width: 80%;
     padding: 10px;
     font-size: 1em;
     border: 2px solid #888;
